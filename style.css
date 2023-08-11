@@ -1,0 +1,98 @@
+.general{
+    align-items: center;
+    justify-items: center;
+    padding: 0 40%;
+}
+.general1{
+    background-color: hsl(213, 19%, 18%); 
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 250px;
+    text-align: left;
+    align-items: center;
+    justify-items: center;
+    display: block;
+}
+.general2{
+    background-color: hsl(213, 19%, 18%); 
+    color: white;
+    margin: 5px 0;
+    padding: 25px;
+    padding-top: 50px;
+    border-radius: 15px;
+    width: 250px;
+    /*height: 150px;*/
+    text-align: left;
+    align-items: center;
+    justify-items: center;
+    display: none;
+}
+.selected{
+    color: orangered;
+    background-color: hsl(215, 10%, 24%);
+    text-align: center;
+    border-radius: 10px;
+    padding: 2px;
+    margin:3px 40px;
+    max-width: 150px;
+    font-size: 14px;
+}
+
+.buttons{
+    align-items: center;
+    justify-items: center;
+}
+.but {
+    background-color: hsl(214, 10%, 49%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50%;
+    margin: 3px;
+    opacity: 70%;
+    align-items: center;
+}
+.but1{
+    background-color: hsl(214, 10%, 49%);
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 50%;
+    margin: 3px;
+    opacity: 70%;
+    align-items: center;
+}
+.submit button{
+    border: none;
+    color: white;
+    background-color: orangered;
+    padding: 10px 100px;
+    margin-top: 10px;
+    border-radius: 20px;
+    align-items: center;
+    justify-items: center;
+    font-weight: 500;
+}
+
+.buttons button:hover{
+    background-color: rgb(225, 217, 217);
+    opacity: 100%;
+}
+.buttons button:active {
+    background-color: orangered;
+}
+.submit button:hover{
+    background-color: white;
+    color: orangered;
+}
+.buttons button.active {
+    background-color: orangered;
+    opacity: 100%;
+  }
+*{
+    font-family: 'Overpass';
+  }
+  
+  
+  
